@@ -1,4 +1,4 @@
-package com.cimians.code.maven;
+package com.cimians.code.corundum;
 
 import java.io.BufferedReader;
 import java.io.IOException;
