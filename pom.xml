@@ -1,12 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.cimians.code</groupId>
-	<artifactId>corundum</artifactId>
-	<packaging>pom</packaging>
-	<version>0.0.1-SNAPSHOT</version>
-	<modules>
-		<module>parent</module>
-		<module>runner</module>
-	</modules>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cimians.code</groupId>
+  <artifactId>corundum</artifactId>
+  <packaging>pom</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <modules>
+    <module>parent</module>
+    <module>runner</module>
+  </modules>
+  <distributionManagement>
+    <repository>
+      <id>cimians-repo</id>
+      <url>scp://code.cimians.com/sites/code/maven/repo</url>
+    </repository>
+    <snapshotRepository>
+      <id>cimians-repo</id>
+      <url>scp://code.cimians.com/sites/code/maven/repo</url>
+    </snapshotRepository>
+  </distributionManagement>
+  <repositories>
+    <repository>
+      <id>cimians-repo</id>
+      <url>scp://code.cimians.com/sites/code/maven/repo</url>
+    </repository>
+  </repositories>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>cimians-repo</id>
+      <url>scp://code.cimians.com/sites/code/maven/repo</url>
+    </pluginRepository>
+  </pluginRepositories>
 </project>

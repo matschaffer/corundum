@@ -9,4 +9,10 @@
   <groupId>myapps</groupId>
   <artifactId>testapp</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <repositories>
+    <repository>
+      <id>cimians-repo</id>
+      <url>http://code.cimians.com/maven</url>
+    </repository>
+  </repositories>
 </project>
