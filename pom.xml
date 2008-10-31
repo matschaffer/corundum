@@ -4,7 +4,7 @@
   <groupId>com.cimians.code</groupId>
   <artifactId>corundum</artifactId>
   <packaging>pom</packaging>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.1-SNAPSHOT</version>
   <modules>
     <module>parent</module>
     <module>runner</module>

@@ -4,11 +4,11 @@
 	<groupId>com.cimians.code.corundum</groupId>
 	<artifactId>runner</artifactId>
 	<packaging>jar</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.1-SNAPSHOT</version>
   <parent>
     <groupId>com.cimians.code</groupId>
     <artifactId>corundum</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.1-SNAPSHOT</version>
   </parent>
 	<dependencies>
 	  <dependency>
