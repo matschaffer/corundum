@@ -12,7 +12,7 @@
   <repositories>
     <repository>
       <id>cimians-repo</id>
-      <url>http://code.cimians.com/maven</url>
+      <url>https://code.cimians.com/maven</url>
     </repository>
   </repositories>
 </project>
